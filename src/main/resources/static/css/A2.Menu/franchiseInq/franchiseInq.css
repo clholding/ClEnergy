@@ -1,0 +1,52 @@
+.container {
+    margin-top: 200px;
+}
+
+h2 {
+    font-size: 22px
+}
+
+.steps {
+    max-width: 524px;
+    width: 100%;
+    margin: 70px auto;
+}
+
+.steps > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    color: #0271B9;
+}
+
+h3, p {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.down-icon {
+    margin: 40px 0px 80px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-top: 100px;
+    }
+}

@@ -1,0 +1,272 @@
+/*header*/
+#menu0 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #CCCCCC;
+}
+
+#DB_navi24 {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    align-items: center;
+}
+
+.cl_logo {
+    background: url("/images/cl_logo.png") no-repeat center;
+    width: 240px;
+    height: 100px;
+}
+
+.DB_main {
+    display: flex;
+    gap: 50px;
+}
+
+.DB_main li {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+}
+.DB_mask{
+    width: 100%;
+    background: #eee;
+    position: absolute;
+    display: none;
+    top: 90px;
+    left: 0;
+    z-index: 2;
+    border-top: 1px solid rgba(0, 0, 0, 0.20);
+    justify-content: center;
+    height: 230px;
+}
+.DB_mask a, .DB_main_mobile a{
+    color: #384A64;
+}
+.DB_move{
+    display: flex;
+    width: 1200px;
+    justify-content: flex-end;
+}
+.DB_subSet {
+    display: flex;
+    gap: 32px;
+}
+.DB_subSet ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+}
+#menu0_mobile{
+    display: none;
+}
+#contentWrapper {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    z-index: 2;
+    overflow-y: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+#DB_navi24_mobile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding-left: 25px;
+}
+.DB_main_mobile{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.DB_main_mobile li{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.show-menu #contentWrapper {
+    left: 0;
+}
+
+.show-menu .overlay {
+    display: block;
+}
+
+/*--header-*/
+
+swiper-container {
+    margin-top: 0px !important;
+}
+
+swiper-slide {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+swiper-slide img {
+    border-radius: 0px !important;
+}
+
+.ban {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 2em;
+    padding: 15px 0;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.ban > div {
+    /* width: 350px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ban a {
+    color: #333;
+}
+
+.ban strong {
+    font-weight: bold;
+}
+
+.fs13 {
+    font-size: 13px;
+}
+
+.fs15 {
+    font-size: 15px;
+}
+
+.fs18 {
+    font-size: 18px;
+}
+
+.ban .video, .ban img {
+    width: 348px;
+    height: 210px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .2);
+    background: transparent !important;
+}
+
+.contents.slide_wrap {
+    margin-top: 100px
+}
+
+.contents.slide_wrap h2 {
+    text-align: left;
+}
+
+.videoSwiper {
+    margin-top: 30px !important;
+}
+
+.videoSwiper swiper-slide {
+    width: 370px !important;
+}
+/*footer*/
+#footerw {
+    margin-top: 60px !important;
+    clear: both;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    background: #252525;
+    min-width: 1170px;
+    display: flex;
+    justify-content: center;
+}
+#footer{
+    width: 1200px;
+}
+.footup {
+    align-items: center;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 42px;
+    margin: 5px 0;
+}
+.footup a{
+    line-height: 35px;
+    color: #848484;
+    line-height: 35px;
+    font-weight: bold;
+}
+.footdown {
+    position: relative;
+    width: 1170px;
+    height: 40px;
+    color: #7d7c7c;
+    margin: 0px;
+    line-height: 1.7;
+}
+hr{
+    border: 1px solid #848484;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    bottom: 70%;
+}
+/*footer*/
+@media (max-width: 768px) {
+    /*header*/
+    #menu0_mobile{
+        display: flex;
+    }
+    #menu0{
+        display: none;
+    }
+    /*header*/
+
+    swiper-container {
+        margin-top: 70px !important;
+    }
+
+    .ban {
+        flex-direction: column;
+    }
+
+    .swiper-wrapper {
+        display: block !important;
+    }
+
+    /*footer*/
+
+    #footer {
+        padding: 0 40px;
+    }
+}

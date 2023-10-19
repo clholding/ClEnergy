@@ -1,0 +1,36 @@
+.container{
+    margin-top:200px;
+}
+h2{
+    font-size:22px
+}
+.posts{
+    margin-top: 30px
+}
+
+.form-check {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, auto);
+    gap: 10px;
+}
+
+.form-check label {
+
+    margin-left: 15px;
+}
+.form-check-input:checked {
+    background-color: #0271B9;
+    border-color: #0271B9;}
+.btn-primary{
+    background: #0271B9;
+}
+
+@media (max-width: 768px){
+    .container{
+        margin-top:100px;
+    }
+    .form-check{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

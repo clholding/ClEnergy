@@ -1,0 +1,121 @@
+.container {
+    margin-top: 200px;
+}
+
+h2 {
+    font-size: 22px
+}
+
+.resume-quant, .saved-quant {
+    font-size: 18px
+}
+
+.write {
+    color: #ffff;
+    border-radius: 30px;
+    border: 2px solid #0271B9;
+    background: #0271B9;
+    height: 48px;
+    width: 150px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    border-top: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.30);
+    font-weight: 700;
+    font-size: 16px;
+    height: 54px;
+}
+
+.resume th:first-child,
+.resume td:first-child {
+    width: 37rem;
+
+}
+
+th:first-child {
+    text-align: center;
+}
+
+tr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.30);
+}
+
+td {
+    height: 134px;
+}
+
+.btn-edit, .btn-delete {
+    color: #171717 !important;
+    background-color: #fff;
+    border: 1px solid #d2d2d2;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    width: 65px;
+
+}
+
+a {
+    color: #000 !important;
+}
+
+th, td {
+    text-align: center;
+}
+
+td:first-child {
+    text-align: left !important;
+}
+
+.saved-jobs th:first-child,
+.saved-jobs td:first-child {
+    width: 40rem;
+}
+
+.saved-jobs td:last-child {
+    width: 10% !important;
+}
+
+.btn-apply {
+    background: #0271B9;
+    color: #FFFFFF;
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 40px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-top: 100px;
+    }
+
+    th:nth-child(2),
+    td:nth-child(2),
+    th:nth-child(4),
+    td:nth-child(4) {
+        display: none;
+    }
+}
