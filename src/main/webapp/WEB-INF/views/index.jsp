@@ -410,6 +410,8 @@
     };
     Object.assign(swiperEl, swiperParams);
     swiperEl.initialize();
+
+    console.log("111111111111111111111111111111111");
 </script>
 
 
